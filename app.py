@@ -439,7 +439,7 @@ with tabs[4]:
         if st.button("Export Library to JSON"):
             if export_library():
                 st.success("Library exported successfully as 'library_export.json'.")
-            else:x
+            else:
                 st.error("Failed to export library.")
     
     with st.expander("Import Library"):
